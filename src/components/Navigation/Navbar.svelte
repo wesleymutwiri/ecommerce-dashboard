@@ -82,4 +82,9 @@
         border-radius: 50%;
         height: 50px;
     }
+
+    .navbar-title h1 {
+        font-weight: lighter;
+        padding: 0px 20px;
+    }
 </style>
