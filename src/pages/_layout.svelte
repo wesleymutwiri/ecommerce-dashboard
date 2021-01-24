@@ -1,10 +1,13 @@
 <!-- routify:options preload="proximity" -->
 <script>
-import Sidebar from '../components/Sidebar.svelte';
+import Sidebar from '../components/Navigation/Sidebar.svelte';
+import Navbar from '../components/Navigation/Navbar.svelte';
+
 </script>
 <div class="container">
     <Sidebar />
     <main>
+        <Navbar />        
         <slot />
     </main>
 </div>
