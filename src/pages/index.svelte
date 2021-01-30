@@ -3,6 +3,7 @@
     import Header from "../components/Header.svelte";
     import RecruitmentProgress from "../components/RecruitmentProgress.svelte";
     import Bio from '../components/Bio.svelte';
+    import Calendar from '../components/Calendar.svelte';
     // metatags.title = 'My Routify app'
     // metatags.description = 'Description coming soon...'
 </script>
@@ -16,7 +17,8 @@
     </div>
     <div class="calendar-and-events">
         <div class="calendar">
-            some-calendar
+            <Calendar /> 
+            
         </div>
         <div class="bio">
             <Bio />
