@@ -65,6 +65,7 @@
 
     .icon {
         padding: 0px 15px;
+        cursor: pointer;
     }
 
     .username {
