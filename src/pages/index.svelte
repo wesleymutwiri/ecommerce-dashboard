@@ -39,4 +39,11 @@
         grid-area: events;
         padding: 0px 30px;
     }
+
+    @media screen and (max-width: 1400px) {
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>

@@ -148,6 +148,7 @@
     justify-content: space-between;
     background-color: #262125;
     color: #fff;
+    max-height: 100vh;
   }
   img {
     width: 100%;
@@ -237,5 +238,10 @@
 
 .custom-shape-divider-top-1611431706 .shape-fill {
     fill: #262125;
+}
+@media screen and (max-width: 1200px){
+    .sidebar {
+        display: none;
+    }
 }
 </style>

@@ -87,4 +87,26 @@
         font-weight: lighter;
         padding: 0px 20px;
     }
+
+    @media screen and (max-width: 560px){
+        .username p {
+            display: none;
+        }
+        .navbar {
+            padding: 0;
+            justify-content: flex-start;
+        }
+        .avatar {
+            padding: 0;
+        }
+        .icon {
+            padding: 0px 10px;
+        }
+        .username {
+            padding: 0;
+        }
+        .navbar-title h1{
+            padding: 0;
+        }
+    }
 </style>

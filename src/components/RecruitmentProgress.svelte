@@ -87,6 +87,10 @@
         box-shadow: 0 1px #666;
     }
 
+    .recruitment-body {
+        overflow-x: auto;
+    }
+
     .recruitment-body table {
         width: 100%;
         text-align: left;

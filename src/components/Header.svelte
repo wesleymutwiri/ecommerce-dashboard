@@ -55,4 +55,13 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    @media screen and (max-width: 850px){
+        .container {
+            flex-direction: column-reverse;
+            width: 100%;
+        }
+        .image {
+            width: 100%;
+        }
+    }
 </style>
